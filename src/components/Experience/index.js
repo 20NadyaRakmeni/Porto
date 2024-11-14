@@ -35,10 +35,10 @@ const Experience = () => {
           <h2>{experience.title1}</h2>
           <ul className="experience-list">
             <li>
-              <strong>Posisi, Perusahaan</strong>
+              <strong>Front End</strong>
             </li>
             <li>
-              <strong>Posisi, Perusahaan</strong>
+              <strong>Git Hub</strong>
             </li>
           </ul>
 

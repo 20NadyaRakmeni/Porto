@@ -1,31 +1,37 @@
+import "../../Assets/css/footer.css"; // Link to the CSS file for styling
+
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2024 Nama Anda. Semua hak dilindungi.</p>
+      <p className="footer-text">© 2024 Nadya. Semua hak dilindungi.</p>
       <div className="social-icons">
         <a
-          href="https://www.linkedin.com/in/username"
+          href="https://www.linkedin.com/in/nadyarakemi"
           target="_blank"
           rel="noopener noreferrer"
+          className="social-link"
         >
           LinkedIn
         </a>
         <a
-          href="https://github.com/username"
+          href="https://github.com/20NadyaRakmeni"
           target="_blank"
-          rel="noopener noreferrer"
+          rel=" noreferrer"
+          className="social-link"
         >
           GitHub
         </a>
         <a
-          href="https://twitter.com/username"
+          href="https://instagram.com/nadyarakemi"
           target="_blank"
           rel="noopener noreferrer"
+          className="social-link"
         >
-          Twitter
+          Instagram
         </a>
       </div>
     </footer>
   );
 };
+
 export default Footer;

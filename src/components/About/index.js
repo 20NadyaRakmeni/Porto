@@ -1,6 +1,8 @@
 import React from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
 import { useEffect, useState } from "react";
+import "../../Assets/css/about.css"; // Tambahkan file CSS untuk styling
+
 const About = () => {
   const [about, setAbout] = useState({});
 
@@ -16,9 +18,21 @@ const About = () => {
 
   return (
     <section className="about">
-      <h2>{about.title}</h2>
-      <p>{about.subTitle}</p>
+      <div className="about-container">
+        <div className="about-text">
+          <h2 className="about-title">{about.title}</h2>
+          <p className="about-subtitle">{about.subTitle}</p>
+        </div>
+        <div className="about-image">
+          <img
+            src={`data:image/jpeg;base64, ${about.image}`}
+            alt="About Us"
+            className="about-img"
+          />
+        </div>
+      </div>
     </section>
   );
 };
+
 export default About;
