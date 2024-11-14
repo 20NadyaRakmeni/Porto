@@ -4,7 +4,7 @@ const About = () => {
       <h2>Tentang Saya</h2>
       <p>
         Deskripsi singkat tentang diri Anda, pengalaman, dan keahlian. Fokus
-        pada pencapaian dan nilai tambah yang Anda bawa.
+        pada pencapaian dan nilai tambah yang Anda bawa. Halo ini tes
       </p>
     </section>
   );
